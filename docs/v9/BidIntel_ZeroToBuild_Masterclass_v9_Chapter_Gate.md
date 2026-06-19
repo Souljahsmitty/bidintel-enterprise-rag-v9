@@ -2,9 +2,9 @@
 
 Target video owner: Claude/Millie tutorial video.
 
-Canonical repo for V9: `/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation/bidintel`
+Canonical repo for V9: this standalone V9 repository.
 
-Public GitHub repo taught by V9: `https://github.com/Souljahsmitty/bidintel-enterprise-rag`
+Public GitHub repo taught by V9: `https://github.com/Souljahsmitty/bidintel-enterprise-rag-v9`
 
 Reference base kept: `BidIntel_ZeroToBuild_Masterclass_v8.mp4`
 
@@ -58,10 +58,10 @@ integrated into the right chapters. A delta package is only render input.
 
 ## Verified Commands
 
-Run from canonical Repo C:
+Run from the V9 repo backend directory:
 
 ```bash
-cd "/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation/bidintel/backend"
+cd backend
 PYTHONPATH=. python3 scripts/test_guardrails_v9.py
 PYTHONPATH=. python3 scripts/test_access_control.py
 PYTHONPATH=. python3 scripts/sim_workflow.py
@@ -70,14 +70,14 @@ PYTHONPATH=. python3 scripts/sim_workflow.py
 Run from the frontend:
 
 ```bash
-cd "/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation/bidintel/frontend"
+cd frontend
+npm install
 npm run build
 ```
 
 Run from the repo root:
 
 ```bash
-cd "/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation/bidintel"
 PYTHONPATH=backend python3 -m compileall backend/app backend/scripts
 ```
 

@@ -12,6 +12,7 @@ V9 artifacts live in `docs/v9/`:
 
 - `BidIntel_ZeroToBuild_Masterclass_v9_Chapter_Gate.md`
 - `BidIntel_ZeroToBuild_Masterclass_v9_Build_Update.md`
+- `BidIntel_V9_16_Chapter_Audited_Masterclass.md`
 - `BidIntel_ZeroToBuild_Masterclass_v9_Hardening_Package.pdf`
 - `BidIntel_ZeroToBuild_Masterclass_v9_delta_proof.mp4`
 - `BidIntel_ZeroToBuild_Masterclass_v9_delta_manifest.json`

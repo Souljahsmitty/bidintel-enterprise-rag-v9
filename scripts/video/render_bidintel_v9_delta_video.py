@@ -7,7 +7,8 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 
-ROOT = Path("/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation")
+REPO_ROOT = Path(__file__).resolve().parents[2]
+ROOT = REPO_ROOT / "docs" / "v9"
 OUT = ROOT / "BidIntel_ZeroToBuild_Masterclass_v9_delta_proof.mp4"
 MANIFEST = ROOT / "BidIntel_ZeroToBuild_Masterclass_v9_delta_manifest.json"
 FRAMES = ROOT / "v9_delta_frames"
@@ -206,13 +207,13 @@ def main():
     ], check=True)
 
     manifest = {
-        "artifact": str(OUT),
+        "artifact": str(OUT.relative_to(REPO_ROOT)),
         "kind": "v9_delta_proof_video",
         "truth_boundary": "Not the full 140-minute masterclass re-render. This is the verified V9 hardening delta/proof package.",
-        "frames": [str(p) for p in frame_paths],
+        "frames": [str(p.relative_to(REPO_ROOT)) for p in frame_paths],
         "source_docs": [
-            str(ROOT / "BidIntel_ZeroToBuild_Masterclass_v9_Chapter_Gate.md"),
-            str(ROOT / "BidIntel_ZeroToBuild_Masterclass_v9_Build_Update.md"),
+            str((ROOT / "BidIntel_ZeroToBuild_Masterclass_v9_Chapter_Gate.md").relative_to(REPO_ROOT)),
+            str((ROOT / "BidIntel_ZeroToBuild_Masterclass_v9_Build_Update.md").relative_to(REPO_ROOT)),
         ],
     }
     MANIFEST.write_text(json.dumps(manifest, indent=2) + "\n")

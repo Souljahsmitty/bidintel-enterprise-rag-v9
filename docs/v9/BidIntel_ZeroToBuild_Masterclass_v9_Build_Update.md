@@ -21,8 +21,7 @@ V9 hardens the parts that blocked a true follow-along build:
 V9 uses the GitHub/Postgres repo as canonical:
 
 ```text
-/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation/bidintel
-https://github.com/Souljahsmitty/bidintel-enterprise-rag
+https://github.com/Souljahsmitty/bidintel-enterprise-rag-v9
 ```
 
 Repo A remains a useful source of stronger local reviewer proof, but V9 must not
@@ -71,8 +70,8 @@ segments:
 Show:
 
 ```bash
-git clone https://github.com/Souljahsmitty/bidintel-enterprise-rag.git
-cd bidintel-enterprise-rag
+git clone https://github.com/Souljahsmitty/bidintel-enterprise-rag-v9.git
+cd bidintel-enterprise-rag-v9
 docker compose up --build
 ```
 

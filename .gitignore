@@ -16,3 +16,5 @@ backend/app/uploads/*
 !backend/app/uploads/.gitkeep
 # os
 .DS_Store
+docs/v9/v9_delta_frames/concat.txt
+docs/v9/v9_delta_frames/silent.mp4

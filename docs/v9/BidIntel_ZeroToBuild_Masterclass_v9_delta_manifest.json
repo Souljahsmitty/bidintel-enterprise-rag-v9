@@ -1,21 +1,21 @@
 {
-  "artifact": "/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation/BidIntel_ZeroToBuild_Masterclass_v9_delta_proof.mp4",
+  "artifact": "docs/v9/BidIntel_ZeroToBuild_Masterclass_v9_delta_proof.mp4",
   "kind": "v9_delta_proof_video",
   "truth_boundary": "Not the full 140-minute masterclass re-render. This is the verified V9 hardening delta/proof package.",
   "frames": [
-    "/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation/v9_delta_frames/frame_000.png",
-    "/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation/v9_delta_frames/frame_001.png",
-    "/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation/v9_delta_frames/frame_002.png",
-    "/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation/v9_delta_frames/frame_003.png",
-    "/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation/v9_delta_frames/frame_004.png",
-    "/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation/v9_delta_frames/frame_005.png",
-    "/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation/v9_delta_frames/frame_006.png",
-    "/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation/v9_delta_frames/frame_007.png",
-    "/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation/v9_delta_frames/frame_008.png",
-    "/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation/v9_delta_frames/frame_009.png"
+    "docs/v9/v9_delta_frames/frame_000.png",
+    "docs/v9/v9_delta_frames/frame_001.png",
+    "docs/v9/v9_delta_frames/frame_002.png",
+    "docs/v9/v9_delta_frames/frame_003.png",
+    "docs/v9/v9_delta_frames/frame_004.png",
+    "docs/v9/v9_delta_frames/frame_005.png",
+    "docs/v9/v9_delta_frames/frame_006.png",
+    "docs/v9/v9_delta_frames/frame_007.png",
+    "docs/v9/v9_delta_frames/frame_008.png",
+    "docs/v9/v9_delta_frames/frame_009.png"
   ],
   "source_docs": [
-    "/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation/BidIntel_ZeroToBuild_Masterclass_v9_Chapter_Gate.md",
-    "/Users/adamsmith/Documents/Claude/Projects/BidIntel Bid Contract AI  Automation/BidIntel_ZeroToBuild_Masterclass_v9_Build_Update.md"
+    "docs/v9/BidIntel_ZeroToBuild_Masterclass_v9_Chapter_Gate.md",
+    "docs/v9/BidIntel_ZeroToBuild_Masterclass_v9_Build_Update.md"
   ]
 }
