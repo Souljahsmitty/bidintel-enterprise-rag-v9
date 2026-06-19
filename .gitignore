@@ -18,3 +18,5 @@ backend/app/uploads/*
 .DS_Store
 docs/v9/v9_delta_frames/concat.txt
 docs/v9/v9_delta_frames/silent.mp4
+docs/v9/v9_16_chapter_frames/concat.txt
+docs/v9/v9_16_chapter_frames/silent.mp4

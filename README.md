@@ -13,13 +13,18 @@ V9 artifacts live in `docs/v9/`:
 - `BidIntel_ZeroToBuild_Masterclass_v9_Chapter_Gate.md`
 - `BidIntel_ZeroToBuild_Masterclass_v9_Build_Update.md`
 - `BidIntel_V9_16_Chapter_Audited_Masterclass.md`
+- `BidIntel_V9_16_Chapter_Audited_Build_Video.mp4`
+- `BidIntel_V9_16_Chapter_Audited_Build_Video_chapters.md`
+- `BidIntel_V9_16_Chapter_Audited_Build_Video_manifest.json`
 - `BidIntel_ZeroToBuild_Masterclass_v9_Hardening_Package.pdf`
 - `BidIntel_ZeroToBuild_Masterclass_v9_delta_proof.mp4`
 - `BidIntel_ZeroToBuild_Masterclass_v9_delta_manifest.json`
 
-Truth boundary: the included MP4 is a V9 hardening delta/proof artifact, not
-the final full 140-minute V9 masterclass render. The finished V9 course should
-look like V8's full masterclass, only corrected chapter by chapter.
+Truth boundary: the 16-chapter build MP4 is the current audited V9 video build
+artifact. It walks the learner through the product map, install path,
+frontend/backend files, guardrails, cache proof, bid/no-bid scoring, local
+simulation, and AWS handoff path. The older delta MP4 remains as a preserved
+hardening proof. Neither MP4 is a live AWS deployment recording.
 
 FastAPI + React + PostgreSQL/pgvector + BM25 + RRF + Reranker + (mock) AWS Bedrock,
 with RBAC, a model-efficiency harness, evaluation scoring, citation verification,
